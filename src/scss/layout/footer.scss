@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    color: $gray;
+}
+.footer_bg {
+    height: 40px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: black;
+    .footer_copyright {
+        text-align: center;
+        p {
+            color: $white;
+        }
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .footer_bg {
+        height: 20px;
+        padding: 4px 0;
+    }
+    p {
+        font-size: 8px;
+    }
+}
+
+
+
+
+  
